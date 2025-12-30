@@ -629,6 +629,12 @@ p {
   overflow: hidden;
 }
 
+@media (min-width: 768px) {
+  .app-showcase-visual {
+    margin-top: 5.5rem;
+  }
+}
+
 .app-screenshot {
   max-width: 300px;
   border-radius: var(--border-radius-lg);
