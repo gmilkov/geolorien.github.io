@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <!-- Sun/Moon circle -->
+  <circle cx="100" cy="50" r="35" stroke="#2D2D2D" stroke-width="6" fill="none"/>
+  <!-- Mountain/Chevron -->
+  <path d="M20 130 L100 60 L180 130" stroke="#2D2D2D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
