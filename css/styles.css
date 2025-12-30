@@ -563,7 +563,7 @@ p {
 @media (min-width: 768px) {
   .app-showcase-content {
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: start;
   }
 
   .app-showcase-content > * {
