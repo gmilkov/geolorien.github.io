@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Geolorien - Get in touch for inquiries, feedback, or partnership opportunities.">
+
+  <meta property="og:title" content="Contact - Geolorien">
+  <meta property="og:description" content="Get in touch with Geolorien.">
+  <meta property="og:url" content="https://geolorien.com/contact.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+  <link rel="icon" type="image/png" href="/logo.png">
+
+  <!-- Formspree DNS prefetch -->
+  <link rel="dns-prefetch" href="https://formspree.io">
+
+  <title>Contact - Geolorien</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="nav-logo">
+        <img src="/logo.png" alt="Geolorien">
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/apps.html" class="nav-link">Apps</a></li>
+        <li><a href="/about.html" class="nav-link">About</a></li>
+        <li><a href="/contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="animate-fade-in">Get in Touch</h1>
+        <p class="animate-fade-in-up delay-1">Have a question or want to work together? We'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+      <div class="container contact-content">
+        <!-- Contact Form -->
+        <form
+          action="https://formspree.io/f/mzdblavk"
+          method="POST"
+          class="contact-form animate-on-scroll"
+        >
+          <!-- Honeypot for spam prevention -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <!-- Custom subject line -->
+          <input type="hidden" name="_subject" value="New message from geolorien.com">
+
+          <!-- Redirect after submission -->
+          <input type="hidden" name="_next" value="https://geolorien.com/contact.html?submitted=true">
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a topic...</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="App Feedback">App Feedback</option>
+              <option value="Partnership">Partnership Opportunity</option>
+              <option value="Support">Technical Support</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <!-- Alternative Contact -->
+        <div class="contact-alt animate-on-scroll">
+          <h3>Prefer email?</h3>
+          <p>You can also reach us directly at:</p>
+          <a href="mailto:hello@geolorien.com" class="contact-email">hello@geolorien.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="/" class="footer-logo">
+          <img src="/logo.png" alt="Geolorien">
+        </a>
+
+        <nav class="footer-nav">
+          <a href="/">Home</a>
+          <a href="/apps.html">Apps</a>
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+
+        <p class="footer-copy">&copy; 2025 Geolorien. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
