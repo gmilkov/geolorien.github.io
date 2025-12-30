@@ -565,6 +565,10 @@ p {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+
+  .app-showcase-content > * {
+    min-width: 0;
+  }
 }
 
 .app-showcase-info h2 {
@@ -621,6 +625,8 @@ p {
 .app-showcase-visual {
   display: flex;
   justify-content: center;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .app-screenshot {
@@ -637,6 +643,8 @@ p {
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   padding-bottom: var(--space-md);
+  width: 100%;
+  max-width: 100%;
 }
 
 .screenshot-gallery .app-screenshot {
