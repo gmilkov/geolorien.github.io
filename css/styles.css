@@ -629,6 +629,32 @@ p {
   box-shadow: var(--shadow-lg);
 }
 
+/* Screenshot Gallery */
+.screenshot-gallery {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: var(--space-md);
+}
+
+.screenshot-gallery .app-screenshot {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  max-height: 400px;
+  width: auto;
+}
+
+.screenshot-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-gallery::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
 /* 6.3 About Page */
 .about-content {
   max-width: var(--max-width-content);
